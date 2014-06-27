@@ -53,7 +53,7 @@ button {
     height: 2rem;
 }
 
-.main .button{
+main .button{
     font-size: 2rem;
     padding: 2rem 0;
     width: 60%;
@@ -82,7 +82,7 @@ header .logo {
 }
 
 /*MAIN========================================================================*/
-.main {
+main {
     float: left;
     width: 100%;
     padding: 1rem 0;

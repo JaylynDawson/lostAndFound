@@ -1,0 +1,4 @@
+#app/app_settings.php
+bower_components
+node_modules
+.sass-cache
