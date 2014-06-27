@@ -8,6 +8,7 @@ html {
 * {
     margin: 0;
     padding: 0;
+    background-color: rgba(0,0,0, .2);
 }
 
 body { 
@@ -39,7 +40,6 @@ a {
 
 /*BUTTONS=====================================================================*/
 button {
-    border-radius: 2rem;
     padding: 1rem 1.5rem;
     border: 0;
     margin: .5rem;
@@ -47,10 +47,8 @@ button {
 
 .button {
     float: left;
-    border-radius: 2rem;
     padding: 1rem;
     margin: .5rem;
-    background-color: #888888;
     color: #FFFFFF;
     height: 2rem;
 }
@@ -71,11 +69,16 @@ button {
 header {
     float: left;
     width: 100%;
-    height: 5rem;
+    padding: 1rem 0;
 }
 
 header .logInButtons {
     float: right;
+    margin: 0 1rem;
+}
+
+header .logo {
+    margin: 0 1rem;
 }
 
 /*MAIN========================================================================*/
@@ -85,12 +88,16 @@ header .logInButtons {
     padding: 1rem 0;
 }
 
+.contentContainer {
+    margin: 0 1rem;
+}
+
 /*FOOTER======================================================================*/
 footer {
-    float: left;
-    position: absolute;
-    bottom:0;
+    clear: both;
+    float: bottom;
     width: 100%;
     text-align: center;
     padding: 1rem 0;
+    background-color: red;
 }
