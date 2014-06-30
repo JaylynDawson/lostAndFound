@@ -63,7 +63,7 @@ button {
     width: 70%;
 }
 
-.logInButtons .button {
+.logInButtons .button, .logOutButton .button {
     float: left;
 }
 
@@ -103,7 +103,7 @@ header {
     padding: 1rem 0;
 }
 
-header .logInButtons {
+header .logInButtons, header .logOutButton {
     float: right;
     margin: 0 1rem;
 }
