@@ -86,7 +86,7 @@ img {
 
 /*MEDIA OBJECTS===============================================================*/
 .mediaObject {
-    margin: .5rem;
+    margin: .5rem 0;
     padding: 1rem;
 }
 
