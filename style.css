@@ -16,6 +16,11 @@ body {
     font-size: 1.7rem; 
 }
 
+.wrapper {
+    margin: 0 auto;
+    height: 100%;
+}
+
 /*============================================================================*/
 /*DEFAULTS====================================================================*/
 /*============================================================================*/
@@ -46,20 +51,23 @@ button {
 }
 
 .button {
-    float: left;
     padding: 1rem;
     margin: .5rem;
     color: #FFFFFF;
     height: 2rem;
 }
 
-main .button{
-    font-size: 2rem;
-    padding: 2rem 0;
-    width: 60%;
+.mainContainer .button {
+    text-align: center;
     display: block;
-    margin: 1rem 20%;
+    margin: .5rem auto;
+    width: 70%;
 }
+
+.logInButtons .button {
+    float: left;
+}
+
 
 /*============================================================================*/
 /*STRUCTURE===================================================================*/
@@ -82,14 +90,16 @@ header .logo {
 }
 
 /*MAIN========================================================================*/
-main {
+.main {
     float: left;
     width: 100%;
     padding: 1rem 0;
 }
 
-.contentContainer {
-    margin: 0 1rem;
+.mainContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 /*FOOTER======================================================================*/
