@@ -33,6 +33,7 @@ h1 {
     font-size: 2.7rem; 
 }
 
+
 /*LINKS=======================================================================*/
 a {
     text-decoration: none;
@@ -90,7 +91,26 @@ img {
     padding: 1rem;
 }
 
+.mediaObject2 {
+    margin: .5rem;
+    padding: .5rem;
+    width: 30%;
+    display: inline-block;
+}
+.object {
+    margin: 0 auto;
+    
+}
 
+.object img {
+    display: block;
+    margin: 0 auto;
+}
+
+.object h5 {
+    padding: .5rem 0 0 0;
+    text-align: center;  
+}
 
 /*============================================================================*/
 /*STRUCTURE===================================================================*/
@@ -123,6 +143,12 @@ header .logo {
     width: 80%;
     margin: 0 auto;
     padding: 1rem;
+}
+
+.container {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /*FOOTER======================================================================*/
