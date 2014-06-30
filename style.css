@@ -8,6 +8,8 @@ html {
 * {
     margin: 0;
     padding: 0;
+    border: none;
+    outline: none;
     background-color: rgba(0,0,0, .2);
 }
 
@@ -31,8 +33,6 @@ h1 {
     font-size: 2.7rem; 
 }
 
-
-
 /*LINKS=======================================================================*/
 a {
     text-decoration: none;
@@ -46,7 +46,6 @@ a {
 /*BUTTONS=====================================================================*/
 button {
     padding: 1rem 1.5rem;
-    border: 0;
     margin: .5rem;
 }
 
@@ -67,6 +66,30 @@ button {
 .logInButtons .button {
     float: left;
 }
+
+/*IMAGES======================================================================*/
+img {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.leftImg {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.rightImg {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+/*MEDIA OBJECTS===============================================================*/
+.mediaObject {
+    margin: .5rem;
+    padding: 1rem;
+}
+
 
 
 /*============================================================================*/
@@ -109,5 +132,4 @@ footer {
     width: 100%;
     text-align: center;
     padding: 1rem 0;
-    background-color: red;
 }
