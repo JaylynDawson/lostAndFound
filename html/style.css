@@ -1,0 +1,244 @@
+/*============================================================================*/
+/*HTML========================================================================*/
+/*============================================================================*/
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0, .2);
+}
+
+body { 
+    font-size: 17px; 
+    font-size: 1.7rem; 
+}
+
+.wrapper {
+    margin: 0 auto;
+    height: 100%;
+}
+
+/*============================================================================*/
+/*DEFAULTS====================================================================*/
+/*============================================================================*/
+
+/*TEXT========================================================================*/
+h1 { 
+    font-size: 27px;
+    font-size: 2.7rem; 
+}
+
+
+/*LINKS=======================================================================*/
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+/*============================================================================*/
+/*OBJECTS/COMPONENTS==========================================================*/
+/*============================================================================*/
+
+/*BUTTONS=====================================================================*/
+button {
+    padding: 1rem 1.5rem;
+    margin: .5rem;
+}
+
+.button {
+    padding: 1rem;
+    margin: .5rem;
+    color: #FFFFFF;
+    height: 2rem;
+}
+
+.mainContainer .button {
+    text-align: center;
+    display: block;
+    margin: .5rem auto;
+    width: 70%;
+}
+
+.logInButtons .button, .logOutButton .button {
+    float: left;
+}
+
+.exitButton {
+    position: fixed;
+    right: 0;
+}
+
+/*IMAGES======================================================================*/
+img {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.leftImg {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.rightImg {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+/*MEDIA OBJECTS===============================================================*/
+.mediaObject {
+    margin: .5rem 0;
+    padding: 1rem;
+}
+
+.mediaObject2 {
+    margin: .5rem;
+    padding: .5rem;
+    width: 30%;
+    display: inline-block;
+}
+.object {
+    margin: 0 auto;
+    
+}
+
+.object img {
+    display: block;
+    margin: 0 auto;
+}
+
+.object h5 {
+    padding: .5rem 0 0 0;
+    text-align: center;  
+}
+
+/*MODAL=======================================================================*/
+.logInModal, .registerModal, .deleteAccountModal, .itemModal, .updateItemModal, .foundItemModal, .updateAccountModal, .forgotPasswordModal{
+    display: none;
+}
+
+.modal {
+    /*display: none;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+
+}
+
+.modal form {
+    max-width: 65%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    right: 0;
+    padding: 1rem;
+    margin-bottom: 30%;
+    text-align: center;
+    background-color: pink;
+}
+
+@media screen and (min-width:600px) {
+    .modal form {
+        max-width: 40%;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .modal form {
+        max-width: 30%;
+    }
+}
+
+.modal h3 {
+    margin-bottom: 1rem;
+}
+
+.modal form a, .modal label {
+    display: block;
+    margin: .5rem 0;
+    text-align: left;
+}
+
+.modal label {
+    margin: 1rem 0 0 0;
+
+}
+
+.modal input, .modal select {
+    height: 2rem;
+    width: 100%;
+}
+
+.modal textarea {
+    height: 5rem;
+    width: 100%;
+}
+
+.buttonContainer {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.buttonContainer button {
+    max-width: 70%;
+}
+
+
+/*============================================================================*/
+/*STRUCTURE===================================================================*/
+/*============================================================================*/
+
+/*HEADER======================================================================*/
+header {
+    float: left;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+header .logInButtons, header .logOutButton {
+    float: right;
+    margin: 0 1rem;
+}
+
+header .logo {
+    margin: 0 1rem;
+}
+
+/*MAIN========================================================================*/
+.main {
+    float: left;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.mainContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.container {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*FOOTER======================================================================*/
+footer {
+    clear: both;
+    float: bottom;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
