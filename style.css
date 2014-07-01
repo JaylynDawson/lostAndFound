@@ -68,6 +68,11 @@ button {
     float: left;
 }
 
+.exitButton {
+    position: fixed;
+    right: 0;
+}
+
 /*IMAGES======================================================================*/
 img {
     width: 40px;
@@ -111,6 +116,84 @@ img {
     padding: .5rem 0 0 0;
     text-align: center;  
 }
+
+/*MODAL=======================================================================*/
+.logInModal, .registerModal, .deleteAccountModal, .itemModal, .updateItemModal, .foundItemModal, .updateAccountModal, .forgotPasswordModal{
+    display: none;
+}
+
+.modal {
+    /*display: none;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+
+}
+
+.modal form {
+    max-width: 65%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    right: 0;
+    padding: 1rem;
+    margin-bottom: 30%;
+    text-align: center;
+    background-color: pink;
+}
+
+@media screen and (min-width:600px) {
+    .modal form {
+        max-width: 40%;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .modal form {
+        max-width: 30%;
+    }
+}
+
+.modal h3 {
+    margin-bottom: 1rem;
+}
+
+.modal form a, .modal label {
+    display: block;
+    margin: .5rem 0;
+    text-align: left;
+}
+
+.modal label {
+    margin: 1rem 0 0 0;
+
+}
+
+.modal input, .modal select {
+    height: 2rem;
+    width: 100%;
+}
+
+.modal textarea {
+    height: 5rem;
+    width: 100%;
+}
+
+.buttonContainer {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.buttonContainer button {
+    max-width: 70%;
+}
+
 
 /*============================================================================*/
 /*STRUCTURE===================================================================*/
