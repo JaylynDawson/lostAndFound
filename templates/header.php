@@ -1,8 +1,8 @@
 <header>
     <a class="logo" href="index.php">Logo</a>
     <div class="logInButtons">
-        <a href="#" class="button">Log In</a>
-        <a href="#" class="button">Register</a>
+        <a href="#" class="button logInButton">Log In</a>
+        <a href="#" class="button registerButton">Register</a>
     </div>
     <div class="logOutButton">
         <a href="#" class="button">Log out</a>
@@ -21,7 +21,7 @@
             <fieldset>
                 <label>Password:</label>
                 <input class="password" type="password" placeholder="***">
-                <a href="#">Forgot Password?</a>
+                <a class="forgotPassword" href="#">Forgot Password?</a>
             </fieldset>
             
             <div class="message"></div>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Account Settings - Lost and Found</title>
     <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
@@ -92,7 +93,7 @@
                             </div>
                         </form>
                     </div>
-                    
+
                 <a href="account.php" class="button">Back to Account</a>
             </div>
         </div>
