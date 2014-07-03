@@ -27,7 +27,7 @@
             <div class="message"></div>
 
             <div class="buttonContainer">
-                <button class="submitButton " type="submit">Log In</button>
+                <button class="submitButton logInSubmitButton" type="submit">Log In</button>
             </div>
         </form>
     </div>
@@ -73,7 +73,7 @@
             <div class="message"></div>
 
             <div class="buttonContainer">
-                <button class="submitButton " type="submit">Register</button>
+                <button class="submitButton registerSubmitButton" type="submit">Register</button>
             </div>
         </form>
     </div>

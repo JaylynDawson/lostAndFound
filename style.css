@@ -70,7 +70,12 @@ button {
 
 .exitButton {
     position: fixed;
+    top: 0;
     right: 0;
+}
+
+.logOutButton {
+    display: none;
 }
 
 /*IMAGES======================================================================*/
@@ -124,6 +129,7 @@ img {
 
 .modal {
     /*display: none;*/
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -131,19 +137,18 @@ img {
     z-index: 999;
     width: 100%;
     height: 100%;
-
+    background-color: rgba(255,0,0, .2);
+    overflow: auto;
 }
 
 .modal form {
     max-width: 65%;
-    overflow: hidden;
-    margin: 0 auto;
+    margin: 0 auto 30% auto;
     position: absolute;
     left: 0;
     top: 20%;
     right: 0;
     padding: 1rem;
-    margin-bottom: 30%;
     text-align: center;
     background-color: pink;
 }
