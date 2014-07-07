@@ -17,7 +17,7 @@
                 <a href="#" class="button registerButton">Register</a>
             </div>
             <div class="logOutButton" hidden>
-                <a href="account.php" class="button">My Account</a>
+                <a href="account.php" class="button">Account</a>
                 <a href="index.php" class="button">Log out</a>
             </div>
         </header>
@@ -29,7 +29,7 @@
                     <h3>Log In</h3>
                     <fieldset>
                         <label>Email:</label>
-                        <input class="email" type="email" placeholder="email@email.com">
+                        <input class="email inputError" type="email" placeholder="email@email.com">
                     </fieldset>
                     <fieldset>
                         <label>Password:</label>

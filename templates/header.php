@@ -5,7 +5,7 @@
         <a href="#" class="button registerButton">Register</a>
     </div>
     <div class="logOutButton" hidden>
-        <a href="account.php" class="button">My Account</a>
+        <a href="account.php" class="button">Account</a>
         <a href="index.php" class="button">Log out</a>
     </div>
 </header>

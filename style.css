@@ -45,8 +45,13 @@ a {
     font-weight: 900;
 }
 
+a:hover {
+    color: rgba(52, 152, 219,1.0);
+}
+
 .logo {
-    background: url(questionMark.png) no-repeat;
+    background: url(crossHairs.png) no-repeat;
+    background-size: 50px 50px;
     width: 50px;
     height: 50px;
     display: block;
@@ -72,10 +77,6 @@ button:hover {
     background-color: rgba(189, 195, 199,1.0);
 }
 
-button:active {
-    background-color: rgba(236, 240, 241,1.0);
-}
-
 .button {
     padding: 1rem;
     margin: .5rem;
@@ -89,6 +90,7 @@ button:active {
 
 .button:hover {
     background-color: rgba(22, 160, 133,1.0);
+    color: #FFFFFF;
 }
 
 .button:active {
@@ -169,6 +171,10 @@ img {
     border-radius: 1rem;
     border: 2px solid;
     border-color: rgba(127, 140, 141,1.0);
+}
+
+.mediaObject2:hover {
+    color: rgba(44, 62, 80,1.0);
 }
 
 .object {
@@ -252,6 +258,11 @@ img {
     display: block;
     margin: .5rem 0;
     text-align: left;
+    color: #FFFFFF;
+}
+
+.modal form a:hover {
+    color: rgba(44, 62, 80,1.0);
 }
 
 .modal label {
@@ -276,6 +287,11 @@ img {
 
 .buttonContainer button {
     max-width: 70%;
+}
+
+.inputError {
+    border: 2px solid;
+    border-color: rgba(231, 76, 60,1.0);
 }
 
 

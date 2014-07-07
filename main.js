@@ -13,12 +13,7 @@ $(function() {
         $('html').css('overflow', 'visable');
     }
 
-// BUTTONS
-$('form').on('submit', function(event) {
-    event.preventDefault();
-    $('.modal').hide();
-});
-
+// Header Buttons
 $('.logInSubmitButton').on('click', function() {
     headerButtons();
 });
@@ -27,16 +22,17 @@ $('.registerSubmitButton').on('click', function() {
     headerButtons();
 });
 
-// $('.logOutButton a').on('click', function() {
-//     headerButtons();
-// });
+
+// MODALS
+$('form').on('submit', function(event) {
+    event.preventDefault();
+    $('.modal').hide();
+});
 
 $('.exitButton').on('click', function() {
     $('.modal').hide();
 });
 
-
-// MODALS
 $('.logInButton').on('click', function() {
     $('.logInModal').show();
     $('.decisionModal').hide();
@@ -59,19 +55,6 @@ $('.modal').on('click', function() {
 
 $('.modal form').on('click', function(event) {
     event.stopPropagation();
-});
-
-$('.mediaObject2').on('click', function(event) {
-    event.preventDefault();
-    var itemClass = $(this).attr('class');
-    var innerClass = $(this).find('div').attr('class');
-
-    if (itemClass == 'mediaObject2 lostItem' ) {
-        $(this).removeClass('lostItem');
-    }
-    else if (innerClass != 'addNewItem' && innerClass != 'addNewFoundItem') {
-        $(this).addClass('lostItem');
-    }
 });
 
 $('.addNewItem').on('click', function(event) {
@@ -103,7 +86,22 @@ $('.deleteAccountButton').on('click', function() {
 });
 
 
+// Media Object
+$('.mediaObject2').on('click', function(event) {
+    event.preventDefault();
+    var itemClass = $(this).attr('class');
+    var innerClass = $(this).find('div').attr('class');
 
+    if (itemClass == 'mediaObject2 lostItem' ) {
+        $(this).removeClass('lostItem');
+    }
+    else if (innerClass != 'addNewItem' && innerClass != 'addNewFoundItem') {
+        $(this).addClass('lostItem');
+    }
+});
+
+
+// Functions specific to index page
 
 $('.indexLostButton').on('click', function(event) {
     event.preventDefault();

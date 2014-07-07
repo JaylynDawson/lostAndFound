@@ -79,11 +79,11 @@
                     <div class="modal deleteAccountModal">
                         <a class="exitButton" href="#">X</a>
                         <form>
-                            <h3>We're sad to see you go, but will gladly delete your account after confirming your password.</h3>
+                            <h3>Please confirm that you want to delete your account by submitting your password.</h3>
                             <fieldset>
                                 <label>Password:</label>
                                 <input class="password" type="password" placeholder="***">
-                                <a href="#">Forgot Password?</a>
+                                <a href="#" class="forgotPassword">Forgot Password?</a>
                             </fieldset>
                             
                             <div class="message"></div>
@@ -93,7 +93,24 @@
                             </div>
                         </form>
                     </div>
+                
+                <!-- FORGOT PASSWORD MODAL -->
+                    <div class="modal forgotPasswordModal">
+                        <a class="exitButton" href="#">X</a>
+                        <form>
+                            <h3>Forgot Password?</h3>
+                            <fieldset>
+                                <label>Email:</label>
+                                <input class="email" type="email" placeholder="email@email.com">
+                            </fieldset>
+                            
+                            <div class="message"></div>
 
+                            <div class="buttonContainer">
+                                <button class="submitButton " type="submit">Send Email</button>
+                            </div>
+                        </form>
+                    </div>
                 <a href="account.php" class="button">Back to Account</a>
             </div>
         </div>
