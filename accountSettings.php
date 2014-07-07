@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <?php include 'templates/header.php';?>
+        <?php include 'templates/header2.php';?>
 
         <div class="main">
             <div class="mainContainer">
@@ -27,7 +27,7 @@
                     <p>00000</p>
                 </div>
                 
-                <a href="#" class="button">Update Account</a>
+                <a href="#" class="button updateAccountButton">Update Account</a>
                 <!-- UPDATE ACCOUNT MODAL -->
                     <div class="modal updateAccountModal">
                         <a class="exitButton" href="#">X</a>
@@ -73,7 +73,7 @@
                             </div>
                         </form>
                     </div>
-                <a href="#" class="button">Delete Account</a>
+                <a href="#" class="button deleteAccountButton">Delete Account</a>
 
                 <!-- DELETE ACCOUNT MODAL -->
                     <div class="modal deleteAccountModal">

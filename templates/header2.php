@@ -1,10 +1,10 @@
 <header>
-    <a class="logo" href="index.php"></a>
-    <div class="logInButtons">
+    <a class="logo" href="account.php"></a>
+    <div class="logInButtons" hidden>
         <a href="#" class="button logInButton">Log In</a>
         <a href="#" class="button registerButton">Register</a>
     </div>
-    <div class="logOutButton" hidden>
+    <div class="logOutButton">
         <a href="account.php" class="button">My Account</a>
         <a href="index.php" class="button">Log out</a>
     </div>

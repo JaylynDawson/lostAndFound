@@ -10,7 +10,7 @@
 
 <body>
     <div class="wrapper">
-        <?php include 'templates/header.php';?>
+        <?php include 'templates/header2.php';?>
 
         <div class="main">
             <div class="mainContainer">
