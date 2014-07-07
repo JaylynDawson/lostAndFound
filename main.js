@@ -59,6 +59,23 @@ $('.modal form').on('click', function(event) {
     event.stopPropagation();
 });
 
+$('.mediaObject2').on('click', function(event) {
+    event.preventDefault();
+    var itemClass = $(this).attr('class');
+    var innerClass = $(this).find('div').attr('class');
+
+    if (itemClass == 'mediaObject2 lostItem' || innerClass == 'addNewItem') {
+        $(this).removeClass('lostItem');
+    }
+    else {
+        $(this).addClass('lostItem');
+    }
+});
+
+$('.addNewItem').on('click', function() {
+    $('.itemModal').show();
+});
+
 
 
 

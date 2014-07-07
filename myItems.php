@@ -16,61 +16,39 @@
             <div class="mainContainer">
                 <h1>My Items:</h1>
                 <div class="container">
-                    <div class="mediaObject2">
+                    <a href="" class="mediaObject2">
                         <div class="object">
                             <img scr="#">
                             <h5>Lorem ipsum dolor</h5>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="mediaObject2">
+                    <a href="" class="mediaObject2 lostItem">
                         <div class="object">
                             <img scr="#">
                             <h5>Lorem ipsum dolor</h5>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="mediaObject2">
+                    <a href="" class="mediaObject2">
                         <div class="object">
                             <img scr="#">
                             <h5>Lorem ipsum dolor</h5>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="mediaObject2">
+                    <a href="" class="mediaObject2">
                         <div class="object">
                             <img scr="#">
                             <h5>Lorem ipsum dolor</h5>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="mediaObject2">
-                        <div class="object">
+                    <a href="" class="mediaObject2">
+                        <div class="addNewItem">
                             <img scr="#">
-                            <h5>Lorem ipsum dolor</h5>
                         </div>
-                    </div>
-
-                    <div class="mediaObject2">
-                        <div class="object">
-                            <img scr="#">
-                            <h5>Lorem ipsum dolor</h5>
-                        </div>
-                    </div>
-
-                    <div class="mediaObject2">
-                        <div class="object">
-                            <img scr="#">
-                            <h5>Lorem ipsum dolor</h5>
-                        </div>
-                    </div>
-
-                    <div class="mediaObject2">
-                        <div class="object">
-                            <img scr="#">
-                            <h5>Lorem ipsum dolor</h5>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <!-- NEW ITEM MODAL -->
                     <div class="modal itemModal">
