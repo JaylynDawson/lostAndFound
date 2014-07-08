@@ -320,7 +320,7 @@ header .logo {
     background-color: rgba(236, 240, 241,1.0);
     float: left;
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem 0 4rem 0;
 }
 
 .mainContainer {
@@ -340,7 +340,14 @@ header .logo {
 footer {
     clear: both;
     float: bottom;
+    position: relative;
+    bottom: 0;
     width: 100%;
     text-align: center;
     padding: 1rem 0;
+}
+
+footer a {
+    padding: .4rem;
+
 }

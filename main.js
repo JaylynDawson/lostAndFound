@@ -125,6 +125,11 @@ $('.indexFoundItemModal .submitButton').on('click', function(event){
     $('.decisionModal').show();
 });
 
-
+// Form validation
+// $('button .submitButton').on('click', function(){
+//     for (i in ($('input'))) {
+        
+//     }
+// });
 
 });
