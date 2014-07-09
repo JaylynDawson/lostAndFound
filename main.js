@@ -13,24 +13,56 @@ $(function() {
         $('html').css('overflow', 'visable');
     }
 
-// Header Buttons
-$('.logInSubmitButton').on('click', function() {
-    headerButtons();
-});
+    var inputReset = function() {
+        $('input').val('');
+        $('input').removeClass('inputError');
+        $('form .message').text('');
+    }
 
-$('.registerSubmitButton').on('click', function() {
-    headerButtons();
-});
+    var formValidation = function(currentObject) {
+        var thisModal = $(currentObject).parents('.modal');
+        var inputText = thisModal.find('input');
+        inputText.each(function(){
+            var value = $(this).val();
+            if (value == '') {
+                $('form .message').prepend().text('Error!!!!');
+                $(this).addClass('inputError');
+            }
+            else {
+                $('form .message').prepend().text('');
+                formValidation();
+            }
 
+        });
+
+
+        
+    }
+
+// Form validation
+$('.submitButton').on('click', function(event) {
+    event.preventDefault();
+    var currentObject = $(this);
+    formValidation(currentObject);
+    if ($('.message').text() == '') {
+        $(this).parents('.modal').hide();
+        inputReset();
+        if ($(this).hasClass('logInSubmitButton') || $(this).hasClass('registerSubmitButton')) {
+            headerButtons();
+        }
+    }
+});
 
 // MODALS
-$('form').on('submit', function(event) {
-    event.preventDefault();
-    $('.modal').hide();
-});
+// $('form').on('submit', function(event) {
+//     event.preventDefault();
+//     $('.modal').hide();
+//     inputReset();
+// });
 
 $('.exitButton').on('click', function() {
     $('.modal').hide();
+    inputReset();
 });
 
 $('.logInButton').on('click', function() {
@@ -51,6 +83,7 @@ $('.forgotPassword').on('click', function() {
 
 $('.modal').on('click', function() {
     $(this).hide();
+    inputReset();
 });
 
 $('.modal form').on('click', function(event) {
@@ -65,6 +98,7 @@ $('.addNewItem').on('click', function(event) {
 $('.itemModal .submitButton').on('click', function(event){
     event.preventDefault();
     $('.itemModal').hide();
+    inputReset();
 });
 
 $('.addNewFoundItem').on('click', function(event) {
@@ -75,6 +109,7 @@ $('.addNewFoundItem').on('click', function(event) {
 $('.foundItemModal .submitButton').on('click', function(event){
     event.preventDefault();
     $('.foundItemModal').hide();
+    inputReset();
 });
 
 $('.updateAccountButton').on('click', function() {
@@ -125,11 +160,11 @@ $('.indexFoundItemModal .submitButton').on('click', function(event){
     $('.decisionModal').show();
 });
 
-// Form validation
-// $('button .submitButton').on('click', function(){
-//     for (i in ($('input'))) {
-        
-//     }
-// });
+
+
+
+
+
+
 
 });

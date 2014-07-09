@@ -18,35 +18,35 @@
                 <div class="container">
                     <a href="" class="mediaObject2">
                         <div class="object">
-                            <img scr="#">
-                            <h5>Lorem ipsum dolor</h5>
+                            <img src="grandmasRing.jpg">
+                            <h5>My Grandma's Ring</h5>
                         </div>
                     </a>
 
                     <a href="" class="mediaObject2 lostItem">
                         <div class="object">
-                            <img scr="#">
+                            <img src="#">
                             <h5>Lorem ipsum dolor</h5>
                         </div>
                     </a>
 
                     <a href="" class="mediaObject2">
                         <div class="object">
-                            <img scr="#">
+                            <img src="#">
                             <h5>Lorem ipsum dolor</h5>
                         </div>
                     </a>
 
                     <a href="" class="mediaObject2">
                         <div class="object">
-                            <img scr="#">
+                            <img src="#">
                             <h5>Lorem ipsum dolor</h5>
                         </div>
                     </a>
 
                     <a href="" class="mediaObject2">
                         <div class="addNewItem">
-                            <img scr="#">
+                            <img src="plus.png">
                         </div>
                     </a>
                 </div>

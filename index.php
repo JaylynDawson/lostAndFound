@@ -29,7 +29,7 @@
                     <h3>Log In</h3>
                     <fieldset>
                         <label>Email:</label>
-                        <input class="email inputError" type="email" placeholder="email@email.com">
+                        <input class="email" type="email" placeholder="email@email.com">
                     </fieldset>
                     <fieldset>
                         <label>Password:</label>
